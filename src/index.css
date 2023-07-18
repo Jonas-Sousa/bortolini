@@ -10,3 +10,9 @@ body {
   box-sizing: border-box;
   font-family: 'Italiana', serif;
 }
+
+#root > main.container {
+  display: flex;
+  flex-direction: column;
+  align-items: 100vh;
+}
